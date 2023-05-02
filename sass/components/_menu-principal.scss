@@ -1,0 +1,39 @@
+.menu-principal__btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  background-color: fff;
+  background-image: url(../design/img/menuprincipal-btn-bg.png);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  border-color: #c4c4c4;
+  border-style: solid;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.menu-principal__btn--fechar {
+  background-position: -48px 6px;
+}
+
+.menu-principal__lista {
+  padding: 0;
+  list-style: none;
+}
+
+.menu-principal__item {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: $#3a3a3a
+}
+
+.menu-principal__item--atual {
+  color: $#f44242;
+}

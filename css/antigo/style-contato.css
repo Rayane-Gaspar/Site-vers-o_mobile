@@ -13,7 +13,7 @@ box-shadow: 0 3px 5px #989898;
   margin-bottom: 15px;
 }
 .formulario__label {
-  color: #343434;
+  color: $$#3a3a3a;
 }
 .formulario__campo{
   width: 100%;

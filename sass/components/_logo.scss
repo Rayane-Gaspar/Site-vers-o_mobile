@@ -1,0 +1,15 @@
+.logo {
+  background-image: url(../design/img/logotipo-preto.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0;
+
+  width: 120px;
+  height: 53px;
+  text-indent: -999px;
+  /*gambiarra para sumir o texto que ficava por cima sem perder a semantic do codigo*/
+}
+
+.logo--branco {
+  background-image: url(../design/img/logotipo-branco.png);
+}
