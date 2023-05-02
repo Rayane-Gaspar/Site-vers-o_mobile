@@ -4,6 +4,8 @@
   color: #fff;
   text-align: center;
   padding: 50px 0;
+  @media(min-width: 992px){
+      height: 100vh;}
 }
 
 .cabecalho-home__titulo {
@@ -26,7 +28,7 @@
   display: block;
   width: 50px;
   height: 3px;
-  background-color: $#f44242;
+  background-color: #f44242;
   margin: 0 auto;
   margin-top: 15px;
 }

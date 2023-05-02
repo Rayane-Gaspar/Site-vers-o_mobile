@@ -1,30 +1,32 @@
 //abstracts
 @import 'abstracts/_cores';
+@import 'abstracts/_breakpoints.scss';
+
 //base
 @import 'base/_normalize.scss';
-@import 'base/fonts';
-@import 'base/meu-reset';
+@import 'base/_fonts';
+@import 'base/_meu-reset';
 
 //layout
 @import 'layout/_container';
-@import 'layout/cabecalho';
-@import 'layout/rodape';
+@import 'layout/_cabecalho';
+@import 'layout/_rodape';
 
 //componentes
-@import 'components/alinhamento-texto';
-@import 'components/depoimentos';
-@import 'components/formulario';
-@import 'components/logo';
-@import 'components/mapa';
-@import 'components/menu-principal';
-@import 'components/pagina-cabecalho';
-@import 'components/pagina-conteudo';
-@import 'components/servicos';
+@import 'components/_alinhamento-texto';
+@import 'components/_depoimentos';
+@import 'components/_formulario';
+@import 'components/_logo';
+@import 'components/_mapa';
+@import 'components/_menu-principal';
+@import 'components/_pagina-cabecalho';
+@import 'components/_pagina-conteudo';
+@import 'components/_servicos';
 
 //paginas
-@import 'pages/contato';
-@import 'pages/pagina-inicial';
-@import 'pages/portfolio';
-@import 'pages/sobre-nos';
+@import 'pages/_contato';
+@import 'pages/_pagina-inicial';
+@import 'pages/_portfolio';
+@import 'pages/_sobre-nos';
 
 
